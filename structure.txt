@@ -1,0 +1,44 @@
+🧠 Why This Is Important
+REST Communication
+Client
+   │
+HTTP + JSON
+   ▼
+REST API
+
+gRPC Communication
+Client
+   │
+HTTP/2 + Protobuf
+   ▼
+gRPC Server
+
+Benefits:
+✅ Faster than REST
+✅ Smaller payloads
+✅ Strongly typed APIs
+✅ HTTP/2 support
+✅ Bi-directional streaming
+
+Used By :
+Google Cloud
+Netflix
+Kubernetes
+Docker
+Envoy Proxy
+
+🛠 Tech Stack
+Python
+gRPC
+Protocol Buffers
+Flask (optional gateway)
+
+📂 Project Structure
+grpc-python-service/
+│
+├── proto/
+│   └── hello.proto
+├── server.py
+├── client.py
+├── requirements.txt
+└── README.md
